@@ -495,6 +495,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1126521049 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 141902, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+  m_PrefabInternal: {fileID: 1190544943}
+--- !u!114 &1126521053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126521049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4016626bb2adc4a6294426ec28c59ef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragOnSurfaces: 1
 --- !u!1 &1175447423
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +640,30 @@ Prefab:
     - target: {fileID: 194200, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402314, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 141902, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+      propertyPath: m_Name
+      value: ChuckStock
+      objectReference: {fileID: 0}
+    - target: {fileID: 22440624, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 22440624, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 22440624, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 313
+      objectReference: {fileID: 0}
+    - target: {fileID: 22440624, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 215
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11417262, guid: 17184f623152246fe88cd94ee8d8167e, type: 2}
