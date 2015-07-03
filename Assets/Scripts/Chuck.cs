@@ -20,6 +20,8 @@ public class Chuck : MonoBehaviour {
 	Actor actor = null;
 	Action action = null;
 
+	public System.Guid Guid;
+
 	// Use this for initialization
 	void Start () {
 		state = STATE.INIT;
