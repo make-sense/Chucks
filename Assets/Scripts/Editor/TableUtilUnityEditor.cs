@@ -1,7 +1,7 @@
 ﻿using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEditor;
 
 [CustomEditor(typeof(TableUtil))]
 public class TableUtilUnityEditor : Editor
